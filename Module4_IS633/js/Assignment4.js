@@ -350,7 +350,7 @@ objRequest.onreadystatechange = function()
     {
         var result = JSON.parse(objRequest.responseText);
         GenerateResult(result);
-     //   goBack("update");
+        goBack("cslist");
     }
   };
   
